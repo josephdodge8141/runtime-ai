@@ -6,17 +6,21 @@ This project implements a Monte Carlo Tree Search (MCTS) algorithm to generate A
 
 1. Create and activate a virtual environment:
 
-bash
+```bash
 python -m venv env
 source env/bin/activate # On Windows, use: env\Scripts\activate
+```
 
 2. Install required packages:
-bash
+```bash
 pip install openai python-dotenv numpy
+```
 
 3. Create a `.env` file in the project root with your OpenAI API key:
 
+```
 OPENAI_API_KEY=your_openai_api_key_here
+```
 
 4. Run the example:
 bash
